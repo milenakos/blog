@@ -1,0 +1,25 @@
+languageCode = "en"
+languageName = "English"
+weight = 1
+title = "Milenakos"
+
+[params]
+displayName = "EN"
+isoCode = "en"
+rtl = false
+dateFormat = "January 2nd 2006"
+
+[author]
+name = "Lia Milenakos"
+image = "milenakos.png"
+headline = "meow"
+bio = "Hi! I'm a silly girl who makes Discord bots and other random nonsense!"
+links = [
+    { email = "mailto:mail@minkos.lol" },
+    { link = "https://minkos.lol/" },
+    { discord = "https://discord.gg/staring" },
+    { github = "https://github.com/milena-kos" },
+    { itch-io = "https://milenakos.itch.io" },
+    { mastodon = "https://catgirl.center/milenakos" },
+    { youtube = "https://youtube.com/@Milenakos" },
+]
