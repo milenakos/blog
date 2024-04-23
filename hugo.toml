@@ -1,4 +1,4 @@
-baseURL = 'https://blog.minkos.lol/'
+baseURL = 'https://blog.minkos.lol'
 languageCode = 'en-us'
 title = 'Milenakos'
 max = '0.121.2'
