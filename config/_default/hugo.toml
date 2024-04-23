@@ -3,7 +3,7 @@
 # https://blowfish.page/docs/getting-started/
 
 theme = "blowfish"
-#baseURL = "https://blog.minkos.lol/"
+baseURL = "https://blog.minkos.lol/"
 defaultContentLanguage = "en"
 max = '0.121.2'
 
