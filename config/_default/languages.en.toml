@@ -20,6 +20,6 @@ links = [
     { discord = "https://discord.gg/staring" },
     { github = "https://github.com/milena-kos" },
     { itch-io = "https://milenakos.itch.io" },
-    { mastodon = "https://catgirl.center/milenakos" },
+    { mastodon = "https://catgirl.center/@milenakos" },
     { youtube = "https://youtube.com/@Milenakos" },
 ]
