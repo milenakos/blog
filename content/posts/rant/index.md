@@ -6,9 +6,11 @@ description: "Rant about Discord bot's instability and weird limits."
 tags: ["catbot"]
 ---
 Software, as opposed to hardware, is usually known for it's stability. If the code is the same and it ran fine before, there shouldn't be any reason for it to suddenly stop working: it can't wear out or run out of fuel. Usually known-good software breaks because of a few things:
+
 - Bugs in new updates
 - Network issues
 - Running out of memory or disk space
+
 Which one is occuring here? Well...
 
 # 1. Unknown Interaction
