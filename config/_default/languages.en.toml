@@ -18,8 +18,7 @@ links = [
     { email = "mailto:lia@minkos.lol" },
     { link = "https://minkos.lol/" },
     { discord = "https://discord.gg/staring" },
-    { github = "https://github.com/milena-kos" },
+    { github = "https://github.com/milenakos" },
     { itch-io = "https://milenakos.itch.io" },
-    { mastodon = "https://catgirl.center/@milenakos" },
     { youtube = "https://youtube.com/@Milenakos" },
 ]
