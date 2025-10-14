@@ -5,13 +5,12 @@
 theme = "blowfish"
 baseURL = "https://blog.minkos.lol"
 defaultContentLanguage = "en"
-max = '0.121.2'
+max = '0.151.0'
 relativeURLs = true
 
 # pluralizeListTitles = "true" # hugo function useful for non-english languages, find out more in  https://gohugo.io/getting-started/configuration/#pluralizelisttitles
 
 enableRobotsTXT = true
-paginate = 10
 summaryLength = 0
 
 buildDrafts = false

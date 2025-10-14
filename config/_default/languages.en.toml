@@ -1,24 +1,22 @@
 languageCode = "en"
 languageName = "English"
 weight = 1
-title = "Milenakos"
+title = "Lia's Blog"
 
 [params]
 displayName = "EN"
 isoCode = "en"
 rtl = false
-dateFormat = "January 2nd 2006"
+dateFormat = "January 2nd, 2006"
 
-[author]
+[params.author]
 name = "Lia Milenakos"
 image = "milenakos.png"
 headline = "meow"
-bio = "Hi! I'm a silly girl who makes Discord bots and other random nonsense!"
+bio = "Hi! I'm a silly catgirl who makes Discord bots and other random nonsense!"
 links = [
     { email = "mailto:lia@minkos.lol" },
     { link = "https://minkos.lol/" },
     { discord = "https://discord.gg/staring" },
-    { github = "https://github.com/milenakos" },
-    { itch-io = "https://milenakos.itch.io" },
-    { youtube = "https://youtube.com/@Milenakos" },
+    { github = "https://github.com/milenakos" }
 ]
