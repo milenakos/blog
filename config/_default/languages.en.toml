@@ -7,7 +7,7 @@ title = "Lia's Blog"
 displayName = "EN"
 isoCode = "en"
 rtl = false
-dateFormat = "January 2nd, 2006"
+dateFormat = "January 2, 2006"
 
 [params.author]
 name = "Lia Milenakos"
