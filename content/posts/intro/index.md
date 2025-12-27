@@ -1,7 +1,6 @@
 ---
 title: "Introduction to Discord Bot Tech"
 date: 2025-12-28
-draft: false
 description: "Explanation of what this blog post series is, and core concepts of Discord Bots"
 series: ["Discord Bots"]
 series_order: 1
@@ -75,12 +74,11 @@ Bots and users primarily interact with Discord using the following systems:
 The 2 systems of Gateway and HTTP API are where the majority of complexities lie, including rate limits, sharding, session start limits, soft restarts, and more. All of this will be explained when relevant.
 
 
-
-[1]: https://discord.com/developers/docs/topics/oauth2#bot-users
-[2]: https://gist.github.com/darksunlight/8e8db86794a88e0f3f80408970fc94e5
-[3]: https://discord.com/developers/docs/reference#snowflakes
-[4]: https://discord.com/developers/docs/events/gateway
-[5]: https://discord.com/developers/docs/reference#http-api
-[6]: https://discord.com/developers/docs/interactions/overview
-[7]: https://discord.com/channels/613425648685547541/697138785317814292/788545260405129237
-[8]: https://discord.com/developers/docs/topics/rate-limits#global-rate-limit
+[^1]: https://discord.com/developers/docs/topics/oauth2#bot-users
+[^2]: https://gist.github.com/darksunlight/8e8db86794a88e0f3f80408970fc94e5
+[^3]: https://discord.com/developers/docs/reference#snowflakes
+[^4]: https://discord.com/developers/docs/events/gateway
+[^5]: https://discord.com/developers/docs/reference#http-api
+[^6]: https://discord.com/developers/docs/interactions/overview
+[^7]: https://discord.com/channels/613425648685547541/697138785317814292/788545260405129237
+[^8]: https://discord.com/developers/docs/topics/rate-limits#global-rate-limit
