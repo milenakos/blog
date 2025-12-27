@@ -1,6 +1,6 @@
 ---
 title: "Introduction to Discord Bot Tech"
-date: 2025-12-28
+date: 2025-12-27
 description: "Explanation of what this blog post series is, and core concepts of Discord Bots"
 series: ["Discord Bots"]
 series_order: 1
@@ -48,7 +48,7 @@ Token structure is as follows:[^2]
 
 Discord snowflakes (better knows as IDs) are 64-bit integers which allow to uniquely identify stuff on Discord. All things in Discord which have IDs (servers, channels, messages, users, emojis, groups, quests, etc etc etc) all use the same snowflake system, and it's impossible to know what type of ID it is based on snowflake alone.[^3]
 
-![Discord Snowflake structure](/featured.png)
+![Discord Snowflake structure](featured.png "Discord Snowflake structure")
 
 As you can see snowflakes include the exact time it was created down to millisecond precision, which is quite useful.
 
