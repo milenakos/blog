@@ -22,7 +22,7 @@ disableTextInHeader = false
 # defaultFeaturedImage = "IMAGE.jpg" # used as default for featured images in all articles
 
 # highlightCurrentMenuArea = true
-martTOC = true
+smartTOC = true
 # smartTOCHideUnfocusedChildren = true
 
 [header]
