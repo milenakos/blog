@@ -41,6 +41,7 @@ Despite that, bots are actually very similiar to user accounts in basic actions!
 Wait whas it a **token** anyway? Well, it's an alphanumeric string which allows Discord to identify who is doing an action without transmititng user passwords or similiar. Bot tokens can be found in the Dev Portal, and user tokens are stored in your client's cookies.
 
 Token structure is as follows:[^2]
+
 *App/User ID as base 64* . *token creation timestamp in a slightly weird format* . *HMAC digest (random string of characters which functions as password)*
 
 
