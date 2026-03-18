@@ -152,8 +152,6 @@ And it found it. Garbage collection. Everything instantly clicked.
 
 As a high-level language, Python does RAM management automatically. In particular, we are interested in the "garbage collector" system. It collects unused objects in 3 stages - 0, 1, and 2 (stage 0 is ran roughly once a second, stage 1 is ran every 10th run of stage 0, and stage 2 is ran every 10th run of stage 1). While the first two are pretty slim, the last one contains *literally all objects in RAM*\*, which means for a long running process which uses tons of RAM like a Discord bot, collecting that stage will require a ton of CPU time to check what's good to unload. Furthermore, garbage collector operates on "stop-the-world" basis, which means *it's blocking*. Finally, because the bot uses more and more RAM the longer it's online, it would make sense the ratelimits happen more often! After enabling garbage collector debug mode, sure enough:
 
-\* it doesnt
-
 ```
 gc: collecting generation 2...
 gc: objects in each generation: 16422 0 4922830
@@ -164,6 +162,8 @@ gc: done, 64313 unreachable, 0 uncollectable, 5.1713s elapsed
 Well, the hard part should be over now. We just have to figure out how to fix it. My first instinct was to run the second generation more often, to not let it grow as crowded.
 
 That however didn't help, because the problem was that those runs didn't actually remove majority of the objects in the 2nd generation, and in fact achieved the opposite effect of having slowdowns much more often. What instead was needed was a way to run these less often, or not at all (bad idea!!)
+
+\* it doesnt
 
 # 10. Happy Pi Day!
 
