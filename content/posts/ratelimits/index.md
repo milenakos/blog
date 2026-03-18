@@ -83,7 +83,7 @@ Hold on, why would the entire bot freeze? If you ask anyone knowledgeable about 
 
 Explained very briefly, Cat Bot uses asyncio, which means "if there is something you have to wait for to finish, go do something else instead". For example, while waiting for Discord to respond to a request, the bot processes other requests. This allows to do hundreds of things at a time without using multiple CPU cores. "Blocking code" refers to code which takes a prolonged period of time *without* letting other stuff happen in the meantime. The entirety of the bot would freeze until such code is complete.
 
-To find blocking code (![Glueless](https://cdn.7tv.app/emote/01GJ6V7GJR000A0HVMWV09CEM5/1x.png)) you can enable asyncio's *debug mode* which logs all code which takes a while to run.
+To find blocking code (*Glueless*) you can enable asyncio's *debug mode* which logs all code which takes a while to run.
 
 Lo and behold:
 
